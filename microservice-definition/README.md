@@ -57,6 +57,20 @@ Los microservicios a nivel macro se componen de patrones a nivel micro se pueden
 * Capa de procesamiento (business logic).
 * Biblioteca de Despliegue, Monitoreo para conocer el estado.
 
+### Por que Golang ? 
+
+Golang es un lenguaje que facilmente nos permite intercomunicar pequeños servicios http/https entre si, con un performancce de una aplicación compilada ademas de los features que ya trae out of the box
+como lo son:
+* Concurrency
+* Parallelism
+* Multithread
+* High Level abstraction
+* Memory Optimization
+* Extensible
+
+### Patrones en Golang
+
+[Patterns](https://github.com/tmrts/go-patterns)
 
 
 #### Resources
