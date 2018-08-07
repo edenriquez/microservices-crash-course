@@ -14,50 +14,51 @@ Los beneficios mas visibles de esto son:
 * Redundancia
 * Performance
 * Autonomia
+* [Service Degradation](https://blog.risingstack.com/designing-microservices-architecture-for-failure/#gracefulservicedegradation)
 * Reusabilidad de Codigo
 
-Las desventajas son las siguientes
+Las desventajas son las siguientes:
 
 * Dificil monitoreo
 * Complejidad al implementar pruebas 
 * Sistemas transaccionales
+* Mantenimiento
 
-### Patrones
+### [Patrones](GLOSSARY.md)
 
 Los patrones de diseño son formas en las que se puede emplear cierta tecnologia que dictan como solucionar un problema de manera optima.
 Patrones de diseño presentes en los microservicios:
 
-* API GATEWAY
+* API Gateway
 * Agregattor
 * Proxy 
 * Chained
 * Branch
 * Shared data
-* Asynchronous
+* [Asynchronous](https://dzone.com/articles/patterns-for-microservices-sync-vs-async)
+* [Adapter service](https://hackernoon.com/learning-these-5-microservice-patterns-will-make-you-a-better-engineer-52fc779c470a#fb1c)
 * Anti-corruption layer
 * Backends for Frontends
-* Bulkhead
+* [Bulkhead](https://blog.risingstack.com/designing-microservices-architecture-for-failure/#Bulkheads)
 * Gateway Aggregation
 * Gateway Offloading
 * Gateway Routing
 * Sidecar
 * Strangler
 * Event Driven
-* Saga
-* Observer
-* PubSub
+* [Saga](https://blog.bernd-ruecker.com/saga-how-to-implement-complex-business-transactions-without-two-phase-commit-e00aa41a1b1b)
+* [Observer](https://hackernoon.com/observer-vs-pub-sub-pattern-50d3b27f838c#8bf1)
+* [PubSub](https://hackernoon.com/observer-vs-pub-sub-pattern-50d3b27f838c#49d0)
 
-### Como se compone un Microservicio ? 
 
-Los microservicios a nivel macro se componen de patrones a nivel micro se pueden entender como un conjunto de funciones que realizan una o una serie de acciones, normalmente los microservicios funcionan bajo el principio de comunicacion, Decentralizacion y Automatizacion dicho esto podemos asumir que dichos servicios tienen como base:
+### Antipatrones
 
-* Endpoints que permiten la entrada de datos desde otros microservicios.
-* Bibliotecas de comunicacion con base de datos.
-* Bibliotecas que se encarga de enviar datos.
-* Capa de procesamiento (business logic).
-* Biblioteca de Despliegue, Monitoreo para conocer el estado.
+* [Data Driven Migration](https://www.oreilly.com/ideas/microservices-antipatterns-and-pitfalls)
+* [Functionaly First, Data Last](https://www.oreilly.com/ideas/microservices-antipatterns-and-pitfalls)
+* [The Timeout AntiPattern](https://www.oreilly.com/ideas/microservices-antipatterns-and-pitfalls)
+* [Using the Circuit Breaker Pattern](https://blog.risingstack.com/designing-microservices-architecture-for-failure/#circuitbreakers)
 
-### Por que Golang ? 
+### ¿Por que Golang? 
 
 Golang es un lenguaje que facilmente nos permite intercomunicar pequeños servicios http/https entre si, con un performancce de una aplicación compilada ademas de los features que ya trae out of the box
 como lo son:
@@ -77,3 +78,5 @@ como lo son:
 * [patterns I ](http://blog.arungupta.me/microservice-design-patterns/)
 * [patterns II](https://vslive.com/Blogs/News-and-Tips/2018/02/Go-Fast-by-Going-Micro-Microservices-Design-Patterns-You-Should-Know.aspx)
 * [intro microservices](https://www.nginx.com/blog/introduction-to-microservices/)
+* [Message queue patterns](https://www.enterpriseintegrationpatterns.com/patterns/messaging/toc.html)
+* [Architecture patterns](https://towardsdatascience.com/10-common-software-architectural-patterns-in-a-nutshell-a0b47a1e9013)
