@@ -5,8 +5,14 @@
   <img width="auto" height="600" src='https://www.mypatentprints.com/wp-content/uploads/2016/06/communication-satellite-patent-space-art-space-poster-space-program-rockets-aircraft-decor-aviation-art-blueprint-pilot-gift-5750f2531.jpg'>
 </p>
 
-Curso de Microservicios escritos con Golang y desplegados en Docker.
-La intencion de este curso es desmistificar la arquitectura de microservicios poniendo en practica los patrones mas comunes y estudiandolos a fondo.
+## SLACK!
+
+https://join.slack.com/t/glosbeteam/shared_invite/enQtMzk1OTQ4NjMzOTM5LWYzODQ3MzQ2NzFlNTE0N2RkYjliZTU2ZjBiYmY3MDdjNjYwYTZjMjIyYTMxODE2YjFhOTgwYWNiNjY3YmRjNzQ
+
+
+### Introduccion
+Crash Course de Microservicios escritos con Golang y desplegados en Docker por la comunidad de [Glosbe learners online](https://www.meetup.com/es-ES/Glosbe-Developers-online/).
+La intencion de este curso es explicar la arquitectura de microservicios de la forma mas simple posible poniendo en practica los patrones mas comunes y estudiandolos a fondo mediante proyectos.
 
 ## Indice:
 
@@ -18,15 +24,23 @@ La intencion de este curso es desmistificar la arquitectura de microservicios po
     * Patrones
     * Antipatrones
     * ¿Por que Golang? 
+      * [Micro (framework)](https://micro.mu/)
 
-2.- [Composion de un Micro servicio](microservice-composition)
+2.- [Composición de un Micro servicio](microservice-composition)
   * Comunicación
   * Seguridad
   * Cache
   * Monitoreo
   * Business logic
 
-3.- Tecnicas Devops de mantenimiento, deployment 
+3.- [Tecnicas Devops de mantenimiento, deployment](microservice-infraestructure)
+  * Dockers
+  * Orchestation
+  * Request Handling
+  * Deployment
+  * Monitoring
+  * Versioning
+  * Failure Tolerance
   
 
 4.- [Implementacion de Patrones](microservice-patterns)
@@ -46,7 +60,7 @@ La intencion de este curso es desmistificar la arquitectura de microservicios po
     * Gateway Aggregation
     * Gateway Offloading
     * Gateway Routing
-    * Sidecar
+    * [Sidecar](https://blog.davemdavis.net/2018/03/13/the-sidecar-pattern/)
     * Strangler
     * Event Driven
     * [Saga](https://blog.bernd-ruecker.com/saga-how-to-implement-complex-business-transactions-without-two-phase-commit-e00aa41a1b1b)

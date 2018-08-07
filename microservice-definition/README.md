@@ -60,8 +60,8 @@ Patrones de diseño presentes en los microservicios:
 
 ### ¿Por que Golang? 
 
-Golang es un lenguaje que facilmente nos permite intercomunicar pequeños servicios http/https entre si, con un performancce de una aplicación compilada ademas de los features que ya trae out of the box
-como lo son:
+Golang permite intercomunicar pequeños servicios http/https entre si y se tiene mucha de la funcionalidad en el core, entonces muchas veces el mismo lenguaje te puede proveer de las herramientas, con un performancce de una aplicación compilada ademas de los features por los cuales es bien aceptado.
+
 * Concurrency
 * Parallelism
 * Multithread
