@@ -5,10 +5,6 @@
   <img width="auto" height="600" src='https://www.mypatentprints.com/wp-content/uploads/2016/06/communication-satellite-patent-space-art-space-poster-space-program-rockets-aircraft-decor-aviation-art-blueprint-pilot-gift-5750f2531.jpg'>
 </p>
 
-## SLACK!
-
-https://join.slack.com/t/glosbeteam/shared_invite/enQtMzk1OTQ4NjMzOTM5LWYzODQ3MzQ2NzFlNTE0N2RkYjliZTU2ZjBiYmY3MDdjNjYwYTZjMjIyYTMxODE2YjFhOTgwYWNiNjY3YmRjNzQ
-
 
 ### Introduccion
 Crash Course de Microservicios escritos con Golang y desplegados en Docker por la comunidad de [Glosbe learners online](https://www.meetup.com/es-ES/Glosbe-Developers-online/).
